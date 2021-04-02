@@ -23,7 +23,7 @@ class Animal :
         if poids > 0 : 
             self.__poids = poids
         else : 
-            print("ValueError")
+            raise ValueError()
     def set_taille(self, taille):
         self.__taille = taille
 

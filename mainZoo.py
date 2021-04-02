@@ -53,7 +53,7 @@ z = Pigeon
 falseAnimal = "Maison"
 g = Aigle
 
-mammifere = [x,y]
+mammifere = [x,falseAnimal,y]
 listeOiseau = [z,g]
 
 #Ajout d'un animal dans une liste zooMammifere
@@ -75,5 +75,5 @@ print("\nAjout d'une liste dans la liste pricipale")
 zooOiseau = Zoo(listeOiseau)
 zooCombinee = zooMammifere + zooOiseau
 zooCombinee.affichage_listAnimal()
-
+zooiajsi = Zoo(listeOiseau)
 
